@@ -5,6 +5,8 @@ on:
     tags:
       - v*.*.*
 
+  workflow_dispatch:
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -13,6 +15,7 @@ jobs:
   publish:
     permissions:
       contents: write
+      id-token: write
 
     runs-on: ubuntu-latest
     timeout-minutes: 15
