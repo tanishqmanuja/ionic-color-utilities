@@ -2,6 +2,11 @@
   "name": "@tqman/ionic-color-utilities",
   "version": "1.0.0",
   "description": "Utility functions for working with colors in Ionic",
+  "keywords": [
+    "ionic",
+    "color",
+    "utilities"
+  ],
   "author": {
     "name": "tanishqmanuja",
     "url": "https://github.com/tanishqmanuja",
