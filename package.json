@@ -7,6 +7,10 @@
     "url": "https://github.com/tanishqmanuja",
     "email": "tanishqmanuja@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanishqmanuja/ionic-color-utilities.git"
+  },
   "type": "module",
   "exports": {
     ".": {
